@@ -635,3 +635,23 @@ nav ul li a {
 .credits {
   font-size: 13px;
 }
+
+.card {
+  margin: 1rem auto;
+  position: relative;
+  background-color: tan;
+}
+
+.card-body {
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  padding-right: 10px;
+  background-color: tan;
+  opacity: 0.5;
+}
